@@ -8,10 +8,11 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
     font-size: 15pt;
-    color: #afafaf;
-    background-image: url(img/fundo2.png);
+    font-weight: 400;
+    color: #f0f0f0;
+    background-image: url(img/fundo.png)
 }
 
 /* --------- Títulos --------- */
@@ -19,14 +20,14 @@ body {
 header {
     width: 60%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    top: 25%;
+    left: 13%;
+
+    text-align: left;
 }
 
 #arcade {
-    color: #ff6edb;
+    color: #ff1dce;
     font-weight: 700;
 }
 
@@ -34,12 +35,12 @@ h1 {
     font-family: 'Play', sans-serif;
     font-size: 120pt;
     font-weight: 400;
-    color: #00CECB;
+    color: #00eeff;
 }
 
 h2 {
-    font-size: 30pt;
-    font-weight: 700;
+    font-size: 25pt;
+    font-weight: 400;
 }
 
 h2, h3, input {
@@ -125,7 +126,7 @@ form h3 {
     border-style: none;
     border-radius: 8px;
     margin-top: 20px;
-    background-color: #F8FA90;
+    background-color: #fff126;
     cursor: pointer;
     transition: 0.7s;
 }
