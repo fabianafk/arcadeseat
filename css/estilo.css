@@ -12,7 +12,11 @@ body {
     font-size: 15pt;
     font-weight: 400;
     color: #f0f0f0;
-    background-image: url(img/fundo.png)
+    /* será o fundo apenas de gradiente
+
+    background-image: url(img/fundo.png) 
+    
+    */
 }
 
 /* -------- Containers --------- */
@@ -82,8 +86,13 @@ nav.home-main.menu {
 .btn-entrar {
     width: 100%;
     height: 80px;
+    display: block;
     font-size: 26pt;
     font-weight: 400;
+    /* ----------------- TEMPORÁRIO ----------------- referente ao botão de link */
+    text-align: center;
+    line-height: 80px;
+    /* ----------------- TEMPORÁRIO ----------------- referente ao botão de link */
     color: #ba66ff;
     border-style: none;
     border-radius: 8px;
@@ -151,11 +160,6 @@ form h3 {
 
 /* --------- Imagens --------- */
 
-.mulher {
-    position: absolute;
-    left: 130px;
-    bottom: 55px;
-}
 
 /* --------- Formulários --------- */
 
