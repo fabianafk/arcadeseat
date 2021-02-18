@@ -17,7 +17,7 @@ body {
 
 /* -------- Navegação --------- */
 
-.home-main.menu {
+nav.home-main.menu {
     width: 80%;
     position: absolute;
     top: 30px;
@@ -27,7 +27,7 @@ body {
 
 /* -------- Botões --------- */
 
-.btn-menu {
+.home-main.menu.btn.sign {
     width: 150px;
     height: 50px;
     display: inline-block;
@@ -38,28 +38,27 @@ body {
     border-style: solid;
     border-radius: 5px;
     margin-left: 10px;
-}
-
-
-.cad {
-    color: #ba66ff;
-    border-color: #ba66ff;
     transition: 0.3s;
 }
 
 
-.cad:hover {
+.home-main.menu.btn.sign.up {
+    color: #ba66ff;
+    border-color: #ba66ff;
+}
+
+
+.home-main.menu.btn.sign.up:hover {
     color: #ffffff;
     background-color: #ba66ff;
 }
 
-.login {
+.home-main.menu.btn.sign.in {
     color: #ff6edb;
     border-color: #ff6edb;
-        transition: 0.3s;
 }
 
-.login:hover {
+.home-main.menu.btn.sign.in:hover {
     color: #ffffff;
     background-color: #ff6edb;
 }
@@ -147,7 +146,20 @@ form h3 {
 
 /* --------- Formulário --------- */
 
-.form-login {
+
+
+.home-sign.form {
+    width: 600px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    background-color: #ba66ff;
+    border-radius: 10px;
+    padding: 50px;
+    padding-bottom: 60px;
+}
+
+.home-sign.up.form {
     width: 600px;
     position: absolute;
     top: 33%;
