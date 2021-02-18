@@ -15,6 +15,22 @@ body {
     background-image: url(img/fundo.png)
 }
 
+/* -------- Containers --------- */
+
+.home-sign.up.container {
+    width: 600px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+}
+
+.home-sign.in.container {
+    width: 600px;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+}
+
 /* -------- Navegação --------- */
 
 nav.home-main.menu {
@@ -93,10 +109,7 @@ nav.home-main.menu {
 }
 
 .home-sign.header {
-    width: 300px;
-    position: absolute;
-    top: 21%;
-    left: 55%;
+    width: 600px;
     text-align: center;
 }
 
@@ -144,26 +157,10 @@ form h3 {
     bottom: 55px;
 }
 
-/* --------- Formulário --------- */
-
-
+/* --------- Formulários --------- */
 
 .home-sign.form {
-    width: 600px;
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    background-color: #ba66ff;
-    border-radius: 10px;
-    padding: 50px;
-    padding-bottom: 60px;
-}
-
-.home-sign.up.form {
-    width: 600px;
-    position: absolute;
-    top: 33%;
-    left: 50%;
+    width: 100%;
     background-color: #ba66ff;
     border-radius: 10px;
     padding: 50px;
