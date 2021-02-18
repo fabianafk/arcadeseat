@@ -15,7 +15,7 @@ body {
     /* será o fundo apenas de gradiente
 
     background-image: url(img/fundo.png) 
-    
+
     */
 }
 
@@ -25,14 +25,14 @@ body {
     width: 600px;
     position: absolute;
     top: 8%;
-    left: 50%;
+    left: 52%;
 }
 
 .home-sign.in.container {
     width: 600px;
     position: absolute;
     top: 18%;
-    left: 50%;
+    left: 52%;
 }
 
 /* -------- Navegação --------- */
