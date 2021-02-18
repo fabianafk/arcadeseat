@@ -19,6 +19,16 @@ body {
     */
 }
 
+.voltar {
+    width: 50px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #acacac;
+
+}
+
 /* -------- Containers --------- */
 
 .home-sign.up.container {
